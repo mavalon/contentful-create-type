@@ -1,0 +1,40 @@
+{
+  "sys": {
+    "id": "statisticPartTwo"
+  },
+  "name": "Statistic Part Two",
+  "description": "Individual statistic to be grouped into stat sections (Two)",
+  "displayField": "name",
+  "fields": [
+    {
+      "id": "name",
+      "name": "Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "value",
+      "name": "Value",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "description",
+      "name": "Description",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ]
+}
